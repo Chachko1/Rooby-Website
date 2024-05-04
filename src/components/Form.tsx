@@ -9,7 +9,7 @@ const Form = () => {
                 <p className="font-inter font-medium text-white">Ask about <span className="font-black">Roooby</span> products, pricing, implementation, or anything else. Our highly trained reps are standing by, ready to help.</p>
             </div>
             <div className="flex flex-col justify-center items-center">
-                <button className=" px-6 hover:bg-customYellow duration-300 bg-white font-inter font-bold  p-3 rounded-md">Try for Free   {`>`}</button>
+                <button className=" px-6 hover:bg-customYellow duration-300 bg-white font-inter font-bold  p-3 rounded-md text-black">Try for Free   {`>`}</button>
                 <p className="font-inter text-white pt-5 font-medium text-[14px]">Full access. No credit card required.</p>
             </div>
     </div>
