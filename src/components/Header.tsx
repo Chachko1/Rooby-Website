@@ -8,14 +8,14 @@ const Header = () => {
                 <h1 className="font-inter text-6xl text-customBlue p-5">
                  Bringing companies and customers together, anywhere
                 </h1>
-                <p className="font-inter px-5 pb-5 w-[70%]">An awesome & powefull tools for your business, increase business revenue with enterprise-grade links built to acquire and engage cutomers.</p>
+                <p className="font-inter px-5 pb-5 w-[70%] text-black">An awesome & powefull tools for your business, increase business revenue with enterprise-grade links built to acquire and engage cutomers.</p>
                 <div className="flex py-4 pt-6">
                     <span className="border border-gray-200 rounded-lg p-0.5 shadow font-inter">
                     <input type="text" placeholder="Enter your email" className="text-gray-700  p-2 focus:border-transparent text-[18px]" />
                     <button className="bg-customBlue text-white p-1.5 rounded-lg hover:bg-customYellow duration-300 px-3">Try for free</button>
                     </span>
                 </div>
-                <p className="font-inter  lg:pb-1 pb-6 p-1 text-gray-700 text-[14px]">Full access. No credit card required.</p>
+                <p className="font-inter  lg:pb-1 pb-6 p-1 text-gray-700 text-[14px] text-black">Full access. No credit card required.</p>
             </div>
             <div className="mx-0">
             <img src="HeaderPhoto.png" alt="" />
