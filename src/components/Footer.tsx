@@ -5,13 +5,13 @@ const Footer = () => {
         <div className="flex flex-col p-10  bg-white">
             <div className="border-b border-gray-300 flex-col md:flex gap-0 md:gap-[100px] md:flex-row justify-between items-start p-4 pb-10 px-[100px]">
                 <div className="pb-10">
-                    <h1 className="font-inter font-black text-[25px] pb-4">Roooby</h1>
-                    <p className="font-inter text-[14px] w-full lg:w-[40%] pb-4">We built an elegant solution. Our team created a fully integrated sales and marketing solution for SMBs</p>
+                    <h1 className="font-inter font-black text-[25px] pb-4 text-black">Roooby</h1>
+                    <p className="font-inter text-[14px] w-full lg:w-[40%] pb-4 text-black">We built an elegant solution. Our team created a fully integrated sales and marketing solution for SMBs</p>
                     <img src="SocialMedia.png" alt="" />
                 </div >
                     <div className="flex md:flex-row flex-col gap-[100px]">
                    <div className="flex gap-[75px] pb-10">     
-                    <ul className="flex flex-col gap-1 font-inter">
+                    <ul className="flex flex-col gap-1 font-inter text-black">
                         <li className="font-bold pb-4">Company</li>
                         <li>About</li>
                         <li>Pricing</li>
@@ -21,7 +21,7 @@ const Footer = () => {
                     </ul>
                    
 
-                    <ul className="flex flex-col gap-1 font-inter">
+                    <ul className="flex flex-col gap-1 font-inter text-black">
                         <li className="font-bold pb-4">Product</li>
                         <li>Sales software</li>
                         <li>Features</li>
@@ -35,7 +35,7 @@ const Footer = () => {
                     </div>
                     <div className="flex md:flex-row flex-col gap-[100px]">
                    <div className="flex gap-[70px]">     
-                    <ul className="flex flex-col gap-1 font-inter">
+                    <ul className="flex flex-col gap-1 font-inter text-black">
                         <li className="font-bold pb-4">Discover</li>
                         <li>Partner program</li>
                         <li>Get our newsletter</li>
@@ -46,7 +46,7 @@ const Footer = () => {
                     </ul>
                    
 
-                    <ul className="flex flex-col gap-1 font-inter">
+                    <ul className="flex flex-col gap-1 font-inter text-black">
                         <li className="font-bold pb-4">Help Center</li>
                         <li>Community</li>
                         <li>Knowledge Bas</li>
