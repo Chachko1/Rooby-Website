@@ -61,9 +61,9 @@ const Footer = () => {
                 
             </div>
             <div className="flex flex-col md:flex-row justify-between w-[90%] mx-auto p-6  items-center">
-               <span className="pb-10 md:pb-0 font-inter">© Copyright 2024</span>
+               <span className="pb-10 md:pb-0 font-inter text-black">© Copyright 2024</span>
 
-               <ul className="md:pb-1 pb-10 flex flex-col md:flex-row  gap-5 md:gap-10 font-inter">
+               <ul className="md:pb-1 pb-10 flex flex-col md:flex-row  gap-5 md:gap-10 font-inter text-black">
                 <li>Terms of Service</li>
                 <li>Privacy Policy</li>
                 <li>Cookies</li>
@@ -71,7 +71,7 @@ const Footer = () => {
 
                <div className="flex gap-2 justify-center items-center">
                 <img src="Shape.png" alt="" className="w-5 h-5"/>
-                <p className="font-inter ">English</p>
+                <p className="font-inter text-black ">English</p>
                </div>
             </div>
         </div>
