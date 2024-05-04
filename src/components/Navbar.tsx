@@ -1,0 +1,42 @@
+"use client";
+import Link from "next/link"
+import { useState } from "react";
+
+const Navbar = () => {
+
+    const [isOpen, setIsOpen]=useState(false);
+    const toggleMenu=()=>{
+        setIsOpen((prevState)=>!prevState);
+    }
+
+  return (
+    <header className="bg-white p-4">
+    <nav className="bg-white flex justify-between items-center w-[90%] mx-auto">
+        <div>
+            <a href="/">
+            <img src="Roooby.png" alt="" className="w-25" />
+            </a>
+        </div>
+        <div className={`absolute md:static md:min-h-fit bg-white min-h-[40vh] left-0 ${isOpen ? "top-[10%] " :"top-[-100%]"  }  md:w-auto w-full    flex items-center px-5`}>
+            <ul className="flex flex-col md:flex-row font-inter text-lg font-medium  md:items-center gap-10 ">
+                <li><Link href="/products" className="hover:text-gray-400 hover:underline duration-100">Products</Link></li>
+                <li><Link href="/pricing" className="hover:text-gray-400 hover:underline duration-100">Pricing</Link></li>
+                <li><Link href="/company" className="hover:text-gray-400 hover:underline duration-100">Company</Link></li>
+                <li><Link href="/blog" className="hover:text-gray-400 hover:underline duration-100">Blog</Link></li>
+                <li><Link href="/contact" className="hover:text-gray-400 hover:underline duration-100">Contact</Link></li>
+            </ul>
+        </div>
+        <div className="flex flex-row gap-2 md:gap-6">
+            <button className="font-inter font-bold border border-gray-300 rounded-md py-1 px-3 hover:bg-gray-300 duration-300">Log in</button>
+            <button className="font-inter font-bold text-white bg-customBlue rounded-md py-1 px-3 hover:bg-customYellow duration-300">Try for free</button>
+            <button onClick={toggleMenu} className="block md:hidden">
+                {isOpen ? <img src="/CloseIcon.png" alt="" width={25} height={25} /> : <img src="/MenuIcon.svg" width={25} height={25}/>}
+            </button>
+        </div>
+
+    </nav>
+    </header>
+  )
+}
+
+export default Navbar
