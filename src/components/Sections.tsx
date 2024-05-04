@@ -10,9 +10,9 @@ const Section2 = () => {
                 <div className="font-inter font-bold  text-[48px] py-5 md:py-0 text-black">Increase company revenue up to 65%</div>
                 <p className="font-inter text-[18px] w-full md:w-[70%] pb-5 md:pb-0 text-black">Automate your sales, marketing, and service in one platform. Avoid data leaks and enable consistent messaging. </p>
                 <ul className="font-inter p-2 text-[18px]">
-                    <li className="p-3 pb-4 flex gap-6"><img src="Ticked.png" alt="" className="w-5 h-5 text-black" /> Close more deals with single-page contact management</li>
-                    <li className="p-3 pb-4 flex gap-6"><img src="Ticked.png" alt="" className="w-5 h-5 text-black"/> Enjoy one-click calling, call scripts and voicemail automation</li>
-                    <li className="p-3  flex gap-6"><img src="Ticked.png" alt="" className="w-5 h-5 text-black"/>Track stages and milestones of your deals to keep the sales process on track</li>
+                    <li className="p-3 pb-4 flex gap-6 text-black"><img src="Ticked.png" alt="" className="w-5 h-5" /> Close more deals with single-page contact management</li>
+                    <li className="p-3 pb-4 flex gap-6 text-black"><img src="Ticked.png" alt="" className="w-5 h-5 "/> Enjoy one-click calling, call scripts and voicemail automation</li>
+                    <li className="p-3  flex gap-6 text-black"><img src="Ticked.png" alt="" className="w-5 h-5"/>Track stages and milestones of your deals to keep the sales process on track</li>
                 </ul>
             </div>
             <div className="bg-customBlue py-[20px] md:py-[50px] px-[30px] md:px-[70px] rounded-2xl">
@@ -31,9 +31,9 @@ const Section2 = () => {
                 <div className="font-inter font-bold text-[48px] py-4 md:py-2 text-black">Marketing</div>
                 <p className="font-inter text-[18px] w-full md:w-[80%] py-2 text-black">Market like the most successful companies in the world with Agile CRM's marketing automation software.  </p>
                 <ul className="font-inter p-2 text-[18px]">
-                    <li className="p-3 pb-4 flex gap-6"><img src="Ticked.png" alt="" className="w-5 h-5 text-black" />Marketing workflows with an easy drag-and-drop designer</li>
-                    <li className="p-3 pb-4 flex gap-6"><img src="Ticked.png" alt="" className="w-5 h-5 text-black"/>Use our templates to create high converting, mobile responsive landing pages</li>
-                    <li className="p-3  flex gap-6"><img src="Ticked.png" alt="" className="w-5 h-5 text-black"/>Integrate social media easily into your marketing campaigns & contact views</li>
+                    <li className="p-3 pb-4 flex gap-6 text-black"><img src="Ticked.png" alt="" className="w-5 h-5 " />Marketing workflows with an easy drag-and-drop designer</li>
+                    <li className="p-3 pb-4 flex gap-6 text-black"><img src="Ticked.png" alt="" className="w-5 h-5 "/>Use our templates to create high converting, mobile responsive landing pages</li>
+                    <li className="p-3  flex gap-6 text-black"><img src="Ticked.png" alt="" className="w-5 h-5 "/>Integrate social media easily into your marketing campaigns & contact views</li>
                 </ul>
             </div>
             
@@ -47,9 +47,9 @@ const Section2 = () => {
                 <div className="font-inter font-bold text-[48px] py-5 md:py-0 text-black">Help Desk Software</div>
                 <p className="font-inter text-[18px] w-full md:w-[70%]  text-black">Great customer support separates decent companies from excellent companies. A positive customer support experience is a crucially important piece of the customer journey. </p>
                 <ul className="font-inter p-2 text-[18px] w-full md:w-[90%]">
-                    <li className="p-3 pb-4 flex gap-6 pt-4"><img src="Ticked.png" alt="" className="w-5 h-5 text-black" />Resolve every issue in the shortest possible time with powerful ticketing features</li>
-                    <li className="p-3 pb-4 flex gap-6"><img src="Ticked.png" alt="" className="w-5 h-5 text-black"/>Categorize tickets according to the issue and route them to the appropriate group (e.g. sales or support)</li>
-                    <li className="p-3  flex gap-6"><img src="Ticked.png" alt="" className="w-5 h-5 text-black"/>Enjoy at-a-glance views of important data—such as ticket priority—on your dashboard</li>
+                    <li className="p-3 pb-4 flex gap-6 pt-4 text-black"><img src="Ticked.png" alt="" className="w-5 h-5 " />Resolve every issue in the shortest possible time with powerful ticketing features</li>
+                    <li className="p-3 pb-4 flex gap-6 text-black" ><img src="Ticked.png" alt="" className="w-5 h-5 "/>Categorize tickets according to the issue and route them to the appropriate group (e.g. sales or support)</li>
+                    <li className="p-3  flex gap-6 text-black"><img src="Ticked.png" alt="" className="w-5 h-5 "/>Enjoy at-a-glance views of important data—such as ticket priority—on your dashboard</li>
                 </ul>
             </div>
             <div className="bg-gray-100 py-[10px] md:py-[45px] px-[15px] md:px-[60px] rounded-2xl">
