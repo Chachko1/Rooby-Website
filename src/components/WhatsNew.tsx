@@ -7,15 +7,15 @@ const WhatsNew = () => {
             <div className="p-5">
                 <p className="font-inter text-gray-400 text-[14px] font-bold py-3 ">Service</p>
                 <div className="p-5 border-t border-gray-300 "><img src="one.png" alt="" className="rounded-sm " width={1000} height={1000}/> </div>
-                <h1 className="font-inter font-bold text-[32px] ">How To Deliver a Successful Product Launch</h1>
-                <p className="font-inter font-medium text-[16px] pt-4"><span className="font-bold">05 Sep 2024</span> , by Joshua Nasl</p>
+                <h1 className="font-inter font-bold text-[32px] text-black">How To Deliver a Successful Product Launch</h1>
+                <p className="font-inter font-medium text-[16px] pt-4 text-black"><span className="font-bold">05 Sep 2024</span> , by Joshua Nasl</p>
 
             </div>
             <div className="p-5 ">
                 <p className="font-inter text-gray-400 text-[14px] font-bold py-3">Service</p>
                 <div className="p-5 border-t border-gray-300 "><img src="two.png" alt="" className="rounded-sm" width={1000} height={1000} /> </div>
-                <h1 className="font-inter font-bold text-[32px] ">What Makes an Authentic Employee Profile, and Why Does It Matter?</h1>
-                <p className="font-inter font-medium text-[16px] pt-4"><span className="font-bold">07 Sep 2023</span> , by Ivan Neshev</p>
+                <h1 className="font-inter font-bold text-[32px] text-black">What Makes an Authentic Employee Profile, and Why Does It Matter?</h1>
+                <p className="font-inter font-medium text-[16px] pt-4 text-black"><span className="font-bold">07 Sep 2023</span> , by Ivan Neshev</p>
             </div>
 
         </div>
