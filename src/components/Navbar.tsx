@@ -8,6 +8,9 @@ const Navbar = () => {
     const toggleMenu=()=>{
         setIsOpen((prevState)=>!prevState);
     }
+    const closeMenu = () => {
+        setIsOpen(false); // Set isOpen to false to close the menu
+    };
 
   return (
     <header className="bg-backgroundColor p-4">
@@ -19,11 +22,11 @@ const Navbar = () => {
         </div>
         <div className={`absolute md:static md:min-h-fit bg-backgroundColor min-h-[40vh] left-0 ${isOpen ? "top-[10%] " :"top-[-100%]"  }  md:w-auto w-full    flex items-center px-5`}>
             <ul className="flex flex-col md:flex-row font-inter text-lg font-medium  md:items-center gap-10 ">
-                <li><Link href="/products" className="text-black hover:text-gray-400 hover:underline duration-100">Products</Link></li>
-                <li><Link href="/pricing" className="text-black hover:text-gray-400 hover:underline duration-100">Pricing</Link></li>
-                <li><Link href="/company" className="text-black hover:text-gray-400 hover:underline duration-100">Company</Link></li>
-                <li><Link href="/blog" className="text-black hover:text-gray-400 hover:underline duration-100">Blog</Link></li>
-                <li><Link href="/contact" className="text-black hover:text-gray-400 hover:underline duration-100">Contact</Link></li>
+                <li><Link href="/products" onClick={closeMenu} className="text-black hover:text-gray-400 hover:underline duration-100">Products</Link></li>
+                <li><Link href="/pricing" onClick={closeMenu} className="text-black hover:text-gray-400 hover:underline duration-100">Pricing</Link></li>
+                <li><Link href="/company" onClick={closeMenu} className="text-black hover:text-gray-400 hover:underline duration-100">Company</Link></li>
+                <li><Link href="/blog" onClick={closeMenu} className="text-black hover:text-gray-400 hover:underline duration-100">Blog</Link></li>
+                <li><Link href="/contact" onClick={closeMenu} className="text-black hover:text-gray-400 hover:underline duration-100">Contact</Link></li>
             </ul>
         </div>
         <div className="flex flex-row gap-2 md:gap-6">
