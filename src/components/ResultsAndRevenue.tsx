@@ -8,7 +8,7 @@ const ResultsAndRevenue = () => {
         <p className="font-inter text-gray-500 text-black">See how companies like yours have smashed their sales success goals</p>
         </div>
         
-        <div className='flex flex-col md:flex-row gap-[100px] mx-auto w-full md:w-[80%] p-6 border-t border-gray-400 m-10 mt-[80px]'>
+        <div className='flex flex-col md:flex-row gap-5 md:gap-[100px] mx-auto w-full md:w-[80%] p-6 border-t border-gray-400 m-10 mt-[80px]'>
             <div>
                 <h1 className='font-inter font-bold text-[50px]  md:text-[72px] whitespace-nowrap text-black'>$2.5 M</h1>
                 <p className='font-inter font-bold text-[20px] text-black'>Generate sales</p>
