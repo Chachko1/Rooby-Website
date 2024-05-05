@@ -2,7 +2,7 @@
 
 const Contact = () => {
   return (
-    <section>
+    <section classname="bg-white">
     <div>Contact</div>
     <div className="flex flex-col md:flex-row gap-10 md:gap-0 bg-white justify-between w-[85%] mx-auto p-10 ">
             <p className="font-inter font-medium lg:pb-0 pb-5 lg:pl-0 pl-5">Our clients and partners</p>
