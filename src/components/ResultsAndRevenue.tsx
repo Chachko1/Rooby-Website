@@ -27,7 +27,7 @@ const ResultsAndRevenue = () => {
 
         </div>
 
-        <div className='flex flex-col md:flex-row  gap-[100px] w-full md:w-[80%] mx-auto p-6 border-t border-gray-400 m-10'>
+        <div className='flex flex-col md:flex-row gap-5  md:gap-[100px] w-full md:w-[80%] mx-auto p-6 border-t border-gray-400 m-10'>
             <div>
                 <h1 className='font-inter font-bold text-[50px] md:text-[72px] whitespace-nowrap text-black'>45%</h1>
                 <p className='font-inter font-bold text-[20px] text-black'>Grew revenue</p>
