@@ -7,7 +7,7 @@ const Section2 = () => {
         <div className="flex flex-col md:flex-row  gap-2 border-t border-gray-400 p-[50px]">
             <div className="w-full md:w-[50%] mx-0 md:mx-auto">
                 <span className="bg-customYellow rounded-md  p-1.5 px-2 font-inter font-bold text-xl">Sales</span>
-                <div className="font-inter font-bold  text-[48px] py-5 md:py-0 text-black">Increase company revenue up to 65%</div>
+                <div className="font-inter font-bold text-[32px] md:text-[48px] py-5 md:py-0 text-black">Increase company revenue up to 65%</div>
                 <p className="font-inter text-[18px] w-full md:w-[70%] pb-5 md:pb-0 text-black">Automate your sales, marketing, and service in one platform. Avoid data leaks and enable consistent messaging. </p>
                 <ul className="font-inter p-2 text-[18px]">
                     <li className="p-3 pb-4 flex gap-6 text-black"><img src="Ticked.png" alt="" className="w-5 h-5" /> Close more deals with single-page contact management</li>
@@ -28,7 +28,7 @@ const Section2 = () => {
            
             <div className="w-full md:w-[50%] mx-auto pt-[5px] md:pt-[70px]">
                 <span className="bg-customYellow rounded-md p-1.5 px-2 font-inter font-bold text-xl">Marketing</span>
-                <div className="font-inter font-bold text-[48px] py-4 md:py-2 text-black">Marketing</div>
+                <div className="font-inter font-bold  text-[32px] md:text-[48px] py-4 md:py-2 text-black">Marketing</div>
                 <p className="font-inter text-[18px] w-full md:w-[80%] py-2 text-black">Market like the most successful companies in the world with Agile CRM's marketing automation software.  </p>
                 <ul className="font-inter p-2 text-[18px]">
                     <li className="p-3 pb-4 flex gap-6 text-black"><img src="Ticked.png" alt="" className="w-5 h-5 " />Marketing workflows with an easy drag-and-drop designer</li>
@@ -44,7 +44,7 @@ const Section2 = () => {
         <div className="flex flex-col md:flex-row gap-2 border-t border-gray-400 p-[50px]">
             <div className="w-full md:w-[50%] mx-auto pt-[20px] md:pt-[70px]">
                 <span className="bg-customYellow rounded-md p-1.5 px-2 font-inter font-bold text-xl">Service</span>
-                <div className="font-inter font-bold text-[48px] py-5 md:py-0 text-black">Help Desk Software</div>
+                <div className="font-inter font-bold text-[32px] md:text-[48px] py-5 md:py-0 text-black">Help Desk Software</div>
                 <p className="font-inter text-[18px] w-full md:w-[70%]  text-black">Great customer support separates decent companies from excellent companies. A positive customer support experience is a crucially important piece of the customer journey. </p>
                 <ul className="font-inter p-2 text-[18px] w-full md:w-[90%]">
                     <li className="p-3 pb-4 flex gap-6 pt-4 text-black"><img src="Ticked.png" alt="" className="w-5 h-5 " />Resolve every issue in the shortest possible time with powerful ticketing features</li>
