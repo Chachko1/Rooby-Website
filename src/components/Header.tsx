@@ -3,7 +3,7 @@
 const Header = () => {
   return (
     <header className="">
-        <div className="flex flex-col md:flex-row pt-10 pb-10 pl-10 bg-white justify-between">
+        <div className="flex flex-col md:flex-row pt-10 pb-10 pl-10 bg-backgroundColor justify-between">
             <div className="flex flex-col w-[100%] md:w-[50%] mx-auto">
                 <h1 className="font-inter text-4xl md:text-6xl text-customBlue p-5">
                  Bringing companies and customers together, anywhere
