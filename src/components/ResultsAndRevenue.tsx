@@ -4,7 +4,7 @@ const ResultsAndRevenue = () => {
   return (
     <section className='pt-[150px] p-5 flex flex-col justify-center items-center'>
         <div className='p-[6]'>
-        <h1 className="font-inter font-bold text-[48px] text-black ">Real-life results and revenue</h1>
+        <h1 className="font-inter font-bold text-[32px] md:text-[48px] text-black ">Real-life results and revenue</h1>
         <p className="font-inter text-gray-500 text-black">See how companies like yours have smashed their sales success goals</p>
         </div>
         
