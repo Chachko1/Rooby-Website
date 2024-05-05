@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <header className="bg-backgroundColor p-4">
-    <nav className="bg-white flex justify-between items-center w-[90%] mx-auto">
+    <nav className="bg-backgroundColor flex justify-between items-center w-[90%] mx-auto">
         <div>
             <a href="/">
             <img src="Roooby.png" alt="" className="w-25" />
