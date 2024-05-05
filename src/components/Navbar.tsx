@@ -10,7 +10,7 @@ const Navbar = () => {
     }
 
   return (
-    <header className="bg-white p-4">
+    <header className="bg-backgroundColor p-4">
     <nav className="bg-white flex justify-between items-center w-[90%] mx-auto">
         <div>
             <a href="/">
