@@ -5,7 +5,7 @@ const Header = () => {
     <header className="">
         <div className="flex flex-col md:flex-row pt-10 pb-10 pl-10 bg-white justify-between">
             <div className="flex flex-col w-[100%] md:w-[50%] mx-auto">
-                <h1 className="font-inter text-6xl text-customBlue p-5">
+                <h1 className="font-inter text-4xl md:text-6xl text-customBlue p-5">
                  Bringing companies and customers together, anywhere
                 </h1>
                 <p className="font-inter px-5 pb-5 w-[70%] text-black">An awesome & powefull tools for your business, increase business revenue with enterprise-grade links built to acquire and engage cutomers.</p>
