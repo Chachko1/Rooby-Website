@@ -2,7 +2,7 @@
 const WhatsNew = () => {
   return (
     <section>
-        <div className="flex flex-col md:flex-row justify-between font-inter p-[100px] text-black"><h1 className="font-bold text-[64px]">What’s new at Roooby?</h1> <p className="font-medium text-[20px] pt-[65px]">See all <span className="text-customGreen">{'>'}</span></p></div>
+        <div className="flex flex-col md:flex-row justify-between font-inter p-[100px] text-black"><h1 className="font-bold text-[50px] md:text-[64px]">What’s new at Roooby?</h1> <p className="font-medium text-[20px] pt-[65px]">See all <span className="text-customGreen">{'>'}</span></p></div>
         <div className="flex flex-col md:flex-row mx-auto w-[80%]">
             <div className="p-5">
                 <p className="font-inter text-gray-400 text-[14px] font-bold py-3 ">Service</p>
