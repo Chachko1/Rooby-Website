@@ -1,8 +1,12 @@
-
+import Form from "@/components/Form"
 
 const page = () => {
   return (
-    <div>PRICING</div>
+    <main>
+      <div>PRICING</div>
+      <Form/>
+    </main>
+    
   )
 }
 
