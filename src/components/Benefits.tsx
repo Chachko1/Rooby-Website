@@ -4,7 +4,7 @@ const Section1 = () => {
   return (
    <section className="bg-customBlue flex flex-col">
     <div className="flex flex-col md:flex-row justify-center items-center pb-[50px] font-inter px-[25px] md:px-[100px] pt-[100px]">
-        <h1 className="text-white w-[100%] md:w-[50%] mx-auto text-3xl md:text-5xl">Here's how Roooby can benefit your business</h1>
+        <h1 className="text-white w-[100%] md:w-[50%] mx-auto text-3xl lg:text-5xl">Here's how Roooby can benefit your business</h1>
         <p className="text-gray-300 w-[100%] pt-8 md:pt-0 md:w-[50%] text-[18px]">Build more meaningful and lasting relationships — better understand their needs, identify new opportunities to help, address any problems faster.</p>
     </div>
     <div className="flex flex-col lg:flex-row justify-center items-center gap-2 mx-auto p-[40px] md:p-[100px]">
