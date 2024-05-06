@@ -22,7 +22,7 @@ const Navbar = () => {
             </a>
         </div>
         <div className={`absolute md:static md:min-h-fit bg-backgroundColor min-h-[40vh] left-0 ${isOpen ? "top-[10%] " :"top-[-100%]"  }  md:w-auto w-full    flex items-center px-5`}>
-            <ul className="flex flex-col md:flex-row font-inter text-lg font-medium  md:items-center gap-10 ">
+            <ul className="flex flex-col md:flex-row font-inter text-lg font-medium  md:items-center gap-10 md:gap-5  lg:gap-10 ">
                 <li><Link href="/products" onClick={closeMenu} className="text-black hover:text-gray-400 hover:underline duration-100">Products</Link></li>
                 <li><Link href="/pricing" onClick={closeMenu} className="text-black hover:text-gray-400 hover:underline duration-100">Pricing</Link></li>
                 <li><Link href="/company" onClick={closeMenu} className="text-black hover:text-gray-400 hover:underline duration-100">Company</Link></li>
