@@ -3,9 +3,9 @@
 const Header = () => {
   return (
     <header className="bg-backgroundColor">
-        <div className="flex flex-col md:flex-row pt-10 pb-10 pl-10 bg-backgroundColor justify-between">
-            <div className="flex flex-col w-[100%] md:w-[50%] mx-auto">
-                <h1 className="font-inter text-4xl md:text-6xl text-customBlue p-5">
+        <div className="flex flex-col lg:flex-row pt-10 pb-10 pl-10 bg-backgroundColor justify-between">
+            <div className="flex flex-col w-[100%] lg:w-[50%] mx-auto">
+                <h1 className="font-inter text-4xl lg:text-6xl text-customBlue p-5">
                  Bringing companies and customers together, anywhere
                 </h1>
                 <p className="font-inter px-5 pb-5 w-[70%] text-black">An awesome & powefull tools for your business, increase business revenue with enterprise-grade links built to acquire and engage cutomers.</p>
@@ -21,7 +21,7 @@ const Header = () => {
             <img src="HeaderPhoto.png" alt="" />
             </div>
         </div>
-        <div className="flex flex-col md:flex-row gap-10 md:gap-0 bg-backgroundColor justify-between w-[85%] mx-auto p-10 ">
+        <div className="flex flex-col lg:flex-row gap-10 md:gap-0 bg-backgroundColor justify-between w-[85%] mx-auto p-10 ">
             <p className="font-inter font-medium lg:pb-0 pb-5 lg:pl-0 pl-5 text-black">Trusted by 1,000+ customers</p>
             <img src="Google.png" alt="" className="w-[200px] h-[40px] lg:w-[100px] lg:h-[35px] " />
             <img src="Atlassian.png" alt="" className="w-[200px] h-[40px] lg:w-[100px] lg:h-[35px]"/>
