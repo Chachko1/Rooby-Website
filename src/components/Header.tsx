@@ -21,7 +21,7 @@ const Header = () => {
             <img src="HeaderPhoto.png" alt="" />
             </div>
         </div>
-        <div className="flex flex-col whitespace-wrap md:flex-row gap-10 md:gap-0 bg-backgroundColor justify-between w-[85%] mx-auto p-10 ">
+        <div className="flex flex-col  lg:flex-row gap-10 lg:gap-0 bg-backgroundColor justify-between w-[85%] mx-auto p-10 ">
             <p className="font-inter font-medium lg:pb-0 pb-5 lg:pl-0 pl-5 text-black">Trusted by 1,000+ customers</p>
             <img src="Google.png" alt="" className="w-[200px] h-[40px] lg:w-[100px] lg:h-[35px] " />
             <img src="Atlassian.png" alt="" className="w-[200px] h-[40px] lg:w-[100px] lg:h-[35px]"/>
