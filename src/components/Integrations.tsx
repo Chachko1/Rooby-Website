@@ -5,7 +5,7 @@ const Integrations = () => {
     <section className="bg-backgroundColor ">
             <div className="flex flex-col gap-5 p-[100px]">
                 <div className="mx-auto">
-                    <h1 className="text-black font-inter font-bold text-[32px] md:text-[48px] pb-3">Over 300+ integrations</h1>
+                    <h1 className="text-black font-inter font-bold text-[32px] lg:text-[48px] pb-3">Over 300+ integrations</h1>
                     <p className="text-black font-inter text-[18px]">Expand the capabilities of <span className="font-black">Roooby</span> with hundreds of apps and integrations</p>
                 </div>
                 <div className="flex flex-col mx-auto gap-2 pt-10">
