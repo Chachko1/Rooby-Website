@@ -4,10 +4,10 @@ const Contact = () => {
   return (
     <section className="bg-backgroundColor flex flex-col items-center ">
       
-      <div className="w-full md:w-[50%] p-3 md:p-10  ">
-        <h1 className="font-inter font-bold text-black text-[40px] md:text-[64px]">Get in touch with our lovely team</h1>
+      <div className="w-full lg:w-[50%] p-3 lg:p-10  ">
+        <h1 className="font-inter font-bold text-black text-[40px] lg:text-[64px]">Get in touch with our lovely team</h1>
       </div>
-    <div className="flex flex-col md:flex-row bg-backgroundColor justify-between  items-center w-full md:w-[70%] mx-auto ">
+    <div className="flex flex-col lg:flex-row bg-backgroundColor justify-between  items-center w-full lg:w-[70%] mx-auto ">
       
       <div className="flex flex-col md:flex-row ">
         <div className="p-5">
@@ -34,9 +34,9 @@ const Contact = () => {
       </div>
       <div>
       <div className="flex flex-col gap-4 pb-3">
-        <input type="text" placeholder="Your Name" className="bg-white text-gray-400 p-2 pr-[100px] md:pr-[200px] rounded-lg" />
-        <input type="text" placeholder="Your Email" className="bg-white text-gray-400 p-2 pr-[100px] md:pr-[200px] rounded-lg" />
-        <input type="text" placeholder="Message" className="bg-white text-gray-400 p-2 pr-[100px] md:pr-[200px] pb-[150px]"/>
+        <input type="text" placeholder="Your Name" className="bg-white text-gray-400 p-2 pr-[100px] lg:pr-[200px] rounded-lg" />
+        <input type="text" placeholder="Your Email" className="bg-white text-gray-400 p-2 pr-[100px] lg:pr-[200px] rounded-lg" />
+        <input type="text" placeholder="Message" className="bg-white text-gray-400 p-2 pr-[100px] lg:pr-[200px] pb-[150px]"/>
         
       </div>
 
