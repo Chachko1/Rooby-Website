@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <footer>
         <div className="flex flex-col p-10  bg-white">
-            <div className="border-b border-gray-300 flex-col md:flex gap-0 md:gap-[100px] md:flex-row justify-between items-start p-4 pb-10 px-[15px] md:px-[100px]">
+            <div className="border-b border-gray-300 flex-col md:flex gap-0 md:gap-[100px] lg:flex-row justify-between items-start p-4 pb-10 px-[15px] md:px-[100px]">
                 <div className="pb-10">
                     <h1 className="font-inter font-black text-[25px] pb-4 text-black">Roooby</h1>
                     <p className="font-inter text-[14px] w-full lg:w-[40%] pb-4 text-black">We built an elegant solution. Our team created a fully integrated sales and marketing solution for SMBs</p>
