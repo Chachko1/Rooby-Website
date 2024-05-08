@@ -11,13 +11,13 @@ const Questions = () => {
 
     return (
         <section className='bg-white p-5'>
-            <div className='w-full lg:w-[60%] p-5 pl-[100px]'>
+            <div className='w-full lg:w-[60%] p-5 pl-5 lg:pl-[100px]'>
                 <h1 className='font-inter font-bold text-black lg:text-[64px] text-[40px]'>Frequently asked questions</h1>
             </div>
             <div className='w-full lg:w-[80%] ml-auto  p-5 px-10'>
                 <div className='flex flex-col gap-5 border-t  border-gray-500 p-2 py-5 '>
                     <div className='flex items-center'>
-                        <h1 className='font-inter font-medium text-[32px] text-black'>How Does Roooby CRM Compare To The Competition?</h1>
+                        <h1 className='font-inter font-medium text-[20px] lg:text-[32px] text-black'>How Does Roooby CRM Compare To The Competition?</h1>
                         <button
                             className="text-white font-bold py-2 px-4 rounded "
                             onClick={() => setIsVisible1(!isVisible1)}
@@ -35,7 +35,7 @@ const Questions = () => {
             <div className='w-full lg:w-[80%] ml-auto  p-5 px-10'>
                 <div className='flex flex-col gap-5 border-t  border-gray-500 p-2 py-5 '>
                     <div className='flex items-center'>
-                        <h1 className='font-inter font-medium text-[32px] text-black'>Can I Change Plans Or Cancel My Subscription At Any Time?</h1>
+                        <h1 className='font-inter font-medium text-[20px] lg:text-[32px] text-black'>Can I Change Plans Or Cancel My Subscription At Any Time?</h1>
                         <button
                             className="text-white font-bold py-2 px-4 rounded "
                             onClick={() => setIsVisible2(!isVisible2)}
@@ -53,7 +53,7 @@ const Questions = () => {
             <div className='w-full lg:w-[80%] ml-auto  p-5 px-10'>
                 <div className='flex flex-col gap-5 border-t  border-gray-500 p-2 py-5 '>
                     <div className='flex items-center'>
-                        <h1 className='font-inter font-medium text-[32px] text-black'>How Secure Is My Data With Roooby CRM?</h1>
+                        <h1 className='font-inter font-medium text-[20px] lg:text-[32px] text-black'>How Secure Is My Data With Roooby CRM?</h1>
                         <button
                             className="text-white font-bold py-2 px-4 rounded "
                             onClick={() => setIsVisible3(!isVisible3)}
@@ -71,7 +71,7 @@ const Questions = () => {
             <div className='w-full lg:w-[80%] ml-auto  p-5 px-10'>
                 <div className='flex flex-col gap-5 border-t  border-gray-500 p-2 py-5 '>
                     <div className='flex items-center'>
-                        <h1 className='font-inter font-medium text-[32px] text-black'>What Is The Uptime Guarantee?</h1>
+                        <h1 className='font-inter font-medium text-[20px] lg:text-[32px] text-black'>What Is The Uptime Guarantee?</h1>
                         <button
                             className="text-white font-bold py-2 px-4 rounded "
                             onClick={() => setIsVisible4(!isVisible4)}
@@ -89,7 +89,7 @@ const Questions = () => {
             <div className='w-full lg:w-[80%] ml-auto  p-5 px-10'>
                 <div className='flex flex-col gap-5 border-t  border-gray-500 p-2 py-5 '>
                     <div className='flex items-center'>
-                        <h1 className='font-inter font-medium text-[32px] text-black'>How Can I Add More Emails To My Account?</h1>
+                        <h1 className='font-inter font-medium text-[20px] lg:text-[32px] text-black'>How Can I Add More Emails To My Account?</h1>
                         <button
                             className="text-white font-bold py-2 px-4 rounded "
                             onClick={() => setIsVisible5(!isVisible5)}
