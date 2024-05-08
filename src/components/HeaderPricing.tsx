@@ -86,8 +86,8 @@ const HeaderPricing = () => {
         </div>
         <div className="flex flex-col lg:flex-row gap-8 justify-center p-5 py-[50px] border-t border-black w-[87%] mx-auto">
             <h1 className="font-inter font-bold text-black text-[32px] ">Need help choosing the right plan?</h1>
-            <button className="font-inter text-black text-[18px] hover:text-white hover:bg-customBlue duration-300 border p-2 px-4 bg-white rounded-lg">Contact sales</button>
-            <button className="font-inter text-black text-[18px] hover:text-white hover:bg-customBlue duration-300 border p-2 px-4 bg-white rounded-lg">Compare plans</button>
+            <button className="font-inter text-black text-[18px] hover:text-white hover:bg-customBlue duration-300 border p-2 px-2 lg:px-4 bg-white rounded-lg">Contact sales</button>
+            <button className="font-inter text-black text-[18px] hover:text-white hover:bg-customBlue duration-300 border p-2 px-2 lg:px-4 bg-white rounded-lg">Compare plans</button>
         </div>
 
 
