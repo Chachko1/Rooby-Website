@@ -44,7 +44,7 @@ const BlogHeader = () => {
   return (
     <div className="font-inter bg-white">
       <div className="w-full lg:w-[60%] p-10 lg:pl-[100px]">
-        <h1 className="font-bold text-[40px] lg:text-[64px]">News and insights <span className="text-gray-400">from our experts</span></h1>
+        <h1 className="font-bold text-[40px] lg:text-[64px] text-black">News and insights <span className="text-gray-400">from our experts</span></h1>
       </div>
       <ul className="text-center  flex flex-col lg:flex-row gap-5 font-medium text-[18px] p-5 lg:pl-[100px] text-gray-400">  
         {["All articles", "Sales", "Marketing", "Service", "Product", "News"].map((item) => (
