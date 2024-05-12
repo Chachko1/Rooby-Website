@@ -42,7 +42,7 @@ const BlogHeader = () => {
   
 
   return (
-    <div className="font-inter">
+    <div className="font-inter bg-white">
       <div className="w-full lg:w-[60%] p-10 lg:pl-[100px]">
         <h1 className="font-bold text-[40px] lg:text-[64px]">News and insights <span className="text-gray-400">from our experts</span></h1>
       </div>
