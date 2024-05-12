@@ -1,8 +1,9 @@
+import BlogHeader from "@/components/BlogHeader"
 import Form from "@/components/Form"
 const page = () => {
   return (
     <main>
-    <div>BLOG</div>
+    <BlogHeader/>
     <Form/>
     </main>
   )
