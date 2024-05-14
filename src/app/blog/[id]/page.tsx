@@ -42,7 +42,7 @@ const BlogPost = ({ params }: any) => {
 
   return (
     <div className="flex flex-col w-full justify-center items-center ">
-      <h2 className="text-black font-bold text-[48px] px-10 pt-10 ">{post.title}</h2>
+      <h2 className="text-black font-bold text-[30px] p-5 lg:text-[48px] px-10 pt-10 ">{post.title}</h2>
       <div className='flex gap-5'>
         <p className="text-gray-600">Author: Unknown</p>
         <p className="text-black font-medium text-[16px]">Date: {new Date().toDateString()}</p>
