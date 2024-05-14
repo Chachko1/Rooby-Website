@@ -63,11 +63,11 @@ const BlogHeader = () => {
           <li key={post.id} className="cursor-pointer hover:scale-105 duration-300">
             <Link href={`/blog/${post.id}`}>
               <div className="flex flex-col w-full">
-                <img src={post.imageUrl} width={361} height={241} alt={post.title} />
+                <img src={post.imageUrl} width={361} height={241} alt={post.title} className='p-2'/>
                 <div className='flex w-full md:w-[85%]'>
-                  <h2 className="text-black font-bold text-[24px] cursor-pointer">{post.title}</h2>
+                  <h2 className="text-black font-bold text-[24px] cursor-pointer p-2">{post.title}</h2>
                 </div>
-                <div className='flex gap-5'>
+                <div className='flex gap-5 p-2'>
                   <p className="text-gray-600">Author: Unknown</p> 
                   <p className="text-black font-medium text-[16px]">Date: {new Date().toDateString()}</p> 
                 </div>
