@@ -37,7 +37,7 @@ const BlogPost = ({ params }: any) => {
   }, []);
 
   if (!post) {
-    return <div className="bg-backgroundColor">Loading...</div>;
+    return <div className="bg-backgroundColor text-black">Loading...</div>;
   }
 
   return (
