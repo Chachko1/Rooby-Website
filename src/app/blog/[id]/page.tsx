@@ -1,10 +1,9 @@
 "use client";
 import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
 
-const BlogPost = () => {
+const BlogPost = ({params}:any) => {
   const [post, setPost] = useState<any>(null);
-  const router = useRouter();
+  
 
   useEffect(() => {
     const fetchPost = async (postId: string) => {
@@ -20,11 +19,11 @@ const BlogPost = () => {
       }
     };
 
-    if (router.query.id) {
-      const postId = Array.isArray(router.query.id) ? router.query.id[0] : router.query.id;
-      fetchPost(postId as string); // Assuming router.query.id is always a string
+    if (params.id) {
+      const postId = Array.isArray(params.id) ? params.id[0] : params.id;
+      fetchPost(postId as string); 
     }
-  }, [router.query.id]);
+  }, []);
 
   if (!post) {
     return <div>Loading...</div>;
@@ -34,7 +33,7 @@ const BlogPost = () => {
     <div>
       <h1>{post.title}</h1>
       <p>{post.body}</p>
-      {/* Additional post details */}
+      {}
     </div>
   );
 };
