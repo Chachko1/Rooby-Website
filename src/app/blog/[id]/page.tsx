@@ -47,7 +47,7 @@ const BlogPost = ({ params }: any) => {
         <p className="text-gray-600">Author: Unknown</p>
         <p className="text-black font-medium text-[16px]">Date: {new Date().toDateString()}</p>
       </div>
-      {imageUrl && <img src={imageUrl} alt={post.title}  className='p-10 rounded-md' />}
+      {imageUrl && <img src={imageUrl} alt={post.title}  className='p-10' />}
       <p className='font-inter font-medium text-[24px] w-full lg:w-[80%] mx-auto p-10 pt-0 text-black'>{post.body}</p>
     </div>
   );
