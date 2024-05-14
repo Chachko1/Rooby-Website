@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 const BlogHeader = () => {
   const [selectedItem, setSelectedItem] = useState<string | null>(null);
@@ -7,7 +8,6 @@ const BlogHeader = () => {
 
   const handleItemClick = (item: string) => {
     setSelectedItem(item);
-    
   };
 
   useEffect(() => {
@@ -39,8 +39,6 @@ const BlogHeader = () => {
     fetchData();
   }, []);
 
-  
-
   return (
     <div className="font-inter bg-white">
       <div className="w-full lg:w-[60%] p-10 lg:pl-[100px]">
@@ -63,18 +61,21 @@ const BlogHeader = () => {
       <ul className="p-5 grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-5 ">  
         {posts.map((post) => (
           <li key={post.id} className="cursor-pointer hover:scale-105 duration-300">
-            <div className="flex flex-col w-full" onClick={() => handleItemClick(post.title)}>
-              <img src={post.imageUrl} width={361} height={241} alt={post.title} />
-              <div className='flex w-full md:w-[85%]'><h2 className="text-black font-bold text-[24px]">{post.title}</h2></div>
-              <div className='flex gap-5'>
-                <p className="text-gray-600">Author: Unknown</p> 
-                <p className="text-black font-medium text-[16px]">Date: {new Date().toDateString()}</p> 
+            <Link href={`/blog/${post.id}`}>
+              <div className="flex flex-col w-full">
+                <img src={post.imageUrl} width={361} height={241} alt={post.title} />
+                <div className='flex w-full md:w-[85%]'>
+                  <h2 className="text-black font-bold text-[24px] cursor-pointer">{post.title}</h2>
+                </div>
+                <div className='flex gap-5'>
+                  <p className="text-gray-600">Author: Unknown</p> 
+                  <p className="text-black font-medium text-[16px]">Date: {new Date().toDateString()}</p> 
+                </div>
               </div>
-            </div>
+            </Link>
           </li>
         ))}
       </ul>
-      
       
     </div>
   );
