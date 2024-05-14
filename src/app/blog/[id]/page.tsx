@@ -41,14 +41,14 @@ const BlogPost = ({ params }: any) => {
   }
 
   return (
-    <div className="flex flex-col w-full justify-center items-center gap-10">
-      <h2 className="text-black font-bold text-[48px] cursor-pointer">{post.title}</h2>
+    <div className="flex flex-col w-full justify-center items-center ">
+      <h2 className="text-black font-bold text-[48px] ">{post.title}</h2>
       <div className='flex gap-5'>
         <p className="text-gray-600">Author: Unknown</p>
         <p className="text-black font-medium text-[16px]">Date: {new Date().toDateString()}</p>
       </div>
-      {imageUrl && <img src={imageUrl} alt={post.title} />}
-      <p className='font-inter font-medium text-[24px] w-[80%] mx-auto'>{post.body}</p>
+      {imageUrl && <img src={imageUrl} alt={post.title}  className='p-10' />}
+      <p className='font-inter font-medium text-[24px] w-[80%] mx-auto p-10'>{post.body}</p>
     </div>
   );
 };
