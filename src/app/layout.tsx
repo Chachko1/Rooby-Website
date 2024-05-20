@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="container mx-auto">
       <body className={`${inter.className} `}>
         <Navbar/>
         {children}
