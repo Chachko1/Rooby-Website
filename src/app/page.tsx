@@ -10,7 +10,7 @@ import Form from "@/components/Form";
 
 export default function Home() {
   return (
-    <main className="bg-white container mx-auto" >
+    <main className="bg-white " >
       <Header/>
       <Benefits/>
       <Sections/>
