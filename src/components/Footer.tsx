@@ -1,8 +1,8 @@
 
 const Footer = () => {
   return (
-    <footer>
-        <div className="flex flex-col p-10  bg-white">
+    <footer className="bg-white">
+        <div className="flex flex-col p-10  bg-white max-w-[1440px] mx-auto">
             <div className="border-b border-gray-300 flex-col md:flex gap-0 md:gap-3 lg:gap-[100px] md:flex-row justify-between items-start p-4 pb-10 px-[15px] lg:px-[100px]">
                 <div className="pb-10">
                     <h1 className="font-inter font-black text-[25px] pb-4 text-black">Roooby</h1>
