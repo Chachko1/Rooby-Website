@@ -41,7 +41,8 @@ const BlogPost = ({ params }: any) => {
   }
 
   return (
-    <div className="flex flex-col w-full justify-center items-center bg-backgroundColor ">
+    <div className='bg-backgroundColor'>
+    <div className="flex flex-col w-full justify-center items-center bg-backgroundColor max-w-[1440px] mx-auto">
       <h2 className="text-black font-bold text-[30px] p-5 lg:text-[48px] px-10 pt-10 ">{post.title}</h2>
       <div className='flex gap-5'>
         <p className="text-gray-600">Author: Unknown</p>
@@ -49,6 +50,7 @@ const BlogPost = ({ params }: any) => {
       </div>
       {imageUrl && <img src={imageUrl} alt={post.title}  className='p-10' />}
       <p className='font-inter font-medium text-[24px] w-full lg:w-[80%] mx-auto p-10 pt-0 text-black'>{post.body}</p>
+    </div>
     </div>
   );
 };
