@@ -1,6 +1,7 @@
 
 const WhatsNew = () => {
   return (
+    <div className="bg-white">
     <section className="max-w-[1440px] mx-auto">
         <div className="flex flex-col md:flex-row justify-center md:justify-between font-inter p-[25px] lg:p-[100px] text-black"><h1 className="font-bold text-[35px] lg:text-[64px]">What’s new at Roooby?</h1> <p className="font-medium text-[20px] pt-[65px]">See all <span className="text-customGreen">{'>'}</span></p></div>
         <div className="flex flex-col md:flex-row mx-auto w-[80%]">
@@ -22,6 +23,7 @@ const WhatsNew = () => {
        
 
     </section>
+    </div>
   )
 }
 
