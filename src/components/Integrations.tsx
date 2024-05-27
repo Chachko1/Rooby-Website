@@ -2,7 +2,8 @@
 
 const Integrations = () => {
   return (
-    <section className="bg-backgroundColor ">
+    <div className="bg-backgroundColor" >
+    <section className="bg-backgroundColor max-w-[1440px] mx-auto">
             <div className="flex flex-col gap-5 p-[100px]">
                 <div className="mx-auto">
                     <h1 className="text-black font-inter font-bold text-[32px] lg:text-[48px] pb-3">Over 300+ integrations</h1>
@@ -18,6 +19,7 @@ const Integrations = () => {
 
             </div>
     </section>
+    </div>
   )
 }
 
