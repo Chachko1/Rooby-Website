@@ -2,7 +2,7 @@
 
 const Section2 = () => {
   return (
-    <section>
+    <section className="max-w-[1440px] mx-auto ">
     <section className="p-[20px] lg:p-[100px]">
         <div className="flex flex-col lg:flex-row  gap-2 border-t border-gray-400 p-[50px]">
             <div className="w-full lg:w-[50%] mx-0 md:mx-auto">
