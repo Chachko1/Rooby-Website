@@ -40,7 +40,8 @@ const BlogHeader = () => {
   }, []);
 
   return (
-    <div className="font-inter bg-white">
+    <div className='bg-white'>
+    <div className="font-inter bg-white max-w-[1440px] mx-auto">
       <div className="w-full lg:w-[60%] p-10 lg:pl-[100px]">
         <h1 className="font-bold text-[40px] lg:text-[64px] text-black">News and insights <span className="text-gray-400">from our experts</span></h1>
       </div>
@@ -77,6 +78,7 @@ const BlogHeader = () => {
         ))}
       </ul>
       
+    </div>
     </div>
   );
 }
