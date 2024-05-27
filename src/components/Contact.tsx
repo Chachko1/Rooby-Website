@@ -2,7 +2,8 @@
 
 const Contact = () => {
   return (
-    <section className="bg-backgroundColor flex flex-col items-center ">
+    <div className="bg-backgroundColor">
+    <section className="bg-backgroundColor flex flex-col items-center max-w-[1440px] mx-auto ">
       
       <div className="w-full lg:w-[50%] p-3 lg:p-10  ">
         <h1 className="font-inter font-bold text-black text-[40px] lg:text-[64px]">Get in touch with our lovely team</h1>
@@ -46,6 +47,7 @@ const Contact = () => {
     </div>
     
     </section>
+    </div>
   )
 }
 
