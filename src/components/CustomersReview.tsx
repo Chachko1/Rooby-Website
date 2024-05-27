@@ -2,7 +2,8 @@
 
 const CustomersReview = () => {
   return (
-    <section className="bg-backgroundColor pb-10">
+    <div className="bg-backgroundColor">
+    <section className="bg-backgroundColor pb-10 max-w-[1440px] mx-auto">
     <div className="flex flex-col lg:flex-row justify-between font-inter pb-[20px] lg:pb-[100px] p-[30px] lg:p-[100px]"><h1 className="font-bold text-[32px] lg:text-[48px] w-full lg:w-[45%] text-black">We love our Customers and They love us too</h1> <p className="font-medium text-[20px] pt-[20px] md:pt-[110px] text-black">See all <span className="text-customGreen">{'>'}</span></p></div>
     <div className="flex gap-10 lg:gap-3 flex-col lg:flex-row p-10 w-full lg:w-[90%] mx-auto">
 
@@ -42,6 +43,7 @@ const CustomersReview = () => {
     </div>
 
     </section>
+    </div>
   )
 }
 
