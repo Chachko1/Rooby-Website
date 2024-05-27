@@ -10,7 +10,8 @@ const Questions = () => {
     
 
     return (
-        <section className='bg-white p-5'>
+        <div className='bg-white'>
+        <section className='bg-white p-5 max-w-[1440px] mx-auto'>
             <div className='w-full lg:w-[60%] p-5 pl-5 lg:pl-[100px]'>
                 <h1 className='font-inter font-bold text-black lg:text-[64px] text-[40px]'>Frequently asked questions</h1>
             </div>
@@ -105,6 +106,7 @@ const Questions = () => {
                 </div>
             </div>
         </section>
+        </div>
     );
 }
 
