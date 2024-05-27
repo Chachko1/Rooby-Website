@@ -2,10 +2,11 @@ import React from 'react'
 
 const ResultsAndRevenue = () => {
   return (
-    <section className='pt-10 md:pt-[150px] p-5 flex flex-col justify-center items-center'>
+    <div className='bg-white'>
+    <section className='pt-10 md:pt-[150px] p-5 flex flex-col justify-center items-center max-w-[1440px] mx-auto'>
         <div className='p-[6]'>
         <h1 className="font-inter font-bold text-[32px] lg:text-[48px] text-black ">Real-life results and revenue</h1>
-        <p className="font-inter text-gray-500 text-black">See how companies like yours have smashed their sales success goals</p>
+        <p className="font-inter  text-black">See how companies like yours have smashed their sales success goals</p>
         </div>
         
         <div className='flex flex-col lg:flex-row gap-5 lg:gap-[100px] mx-auto w-full lg:w-[80%] p-6 border-t border-gray-400 m-10 mt-[80px]'>
@@ -46,6 +47,7 @@ const ResultsAndRevenue = () => {
       
 
     </section>
+    </div>
   )
 }
 
