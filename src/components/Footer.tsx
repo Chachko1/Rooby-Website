@@ -1,3 +1,4 @@
+import LanguageDropdown from "./LanguageDropdown"
 
 const Footer = () => {
   return (
@@ -70,8 +71,8 @@ const Footer = () => {
                </ul>
 
                <div className="flex gap-2 justify-center items-center">
-                <img src="Shape.png" alt="" className="w-5 h-5"/>
-                <p className="font-inter text-black ">English</p>
+                <img src="ic_language.svg" alt="" className="w-7 h-7"/>
+                <LanguageDropdown/>
                </div>
             </div>
         </div>
