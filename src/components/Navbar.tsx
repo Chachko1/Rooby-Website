@@ -31,8 +31,8 @@ const Navbar = () => {
             </ul>
         </div>
         <div className="flex flex-row gap-2 md:gap-6">
-            <button className="font-inter font-bold border bg-white border-gray-300 rounded-md py-1 px-3 lg:px-5 text-black hover:bg-gray-300 duration-300">Log in</button>
-            <button className="font-inter font-bold text-white bg-customBlue rounded-md py-1 px-3 lg:px-5 hover:bg-customYellow duration-300">Try for free</button>
+            <button className="font-inter font-bold border bg-white border-gray-300 rounded-md py-1 px-3 lg:px-5 text-black hover:bg-gray-300 duration-300 text-[10px] lg:text-[14px]">Log in</button>
+            <button className="font-inter font-bold text-white bg-customBlue rounded-md py-1 px-3 lg:px-5 hover:bg-customYellow duration-300 text-[10px] lg:text-[14px]  ">Try for free</button>
             <button onClick={toggleMenu} className="block md:hidden">
                 {isOpen ? <img src="/CloseIcon.png" alt="" width={25} height={25} /> : <img src="/MenuIcon.svg" width={25} height={25}/>}
             </button>
