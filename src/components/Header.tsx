@@ -13,7 +13,7 @@ const Header = () => {
                 <div className="flex py-2 pt-2  lg:py-4 lg:pt-6 lg:pl-5 pl-2   ">
                     <span className="border bg-white  border-gray-200 rounded-lg p-1  shadow  font-inter flex">
                     <input type="text" placeholder="Enter your email" className="text-gray-700  p-2 focus:border-transparent text-[15px] lg:text-[18px]" />
-                    <button className="bg-customBlue text-white p-2.5  rounded-lg hover:bg-customYellow duration-300 px-4">Try for free</button>
+                    <button className="bg-customBlue text-white p-2.5  rounded-lg hover:bg-customYellow duration-300 text-[10px] lg:text-[14px] px-4">Try for free</button>
                     </span>
                 </div>
                 <p className="font-inter  lg:pb-1 pb-6 p-1 pl-5  text-[14px] text-black">Full access. No credit card required.</p>
