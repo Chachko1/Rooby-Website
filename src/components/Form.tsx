@@ -2,7 +2,7 @@
 
 const Form = () => {
   return (
-   <section style={{backgroundImage: `url('/BG.png')`}}>
+   <section className="bg-cover bg-center bg-no-repeat" style={{backgroundImage: `url('/BG.png')`}}>
     <div className=" p-[80px] flex flex-col lg:flex-row gap-[50px] bg-cover bg-center w-full h-200 max-w-[1440px] mx-auto" >
             <div className="w-full md:w-[50%] flex flex-col ">
                 <h1 className="font-inter font-bold text-white text-[40px] lg:text-[64px]">Ready to supercharge your business?</h1>
