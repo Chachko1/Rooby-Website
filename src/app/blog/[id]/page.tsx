@@ -42,7 +42,7 @@ const BlogPost = ({ params }: any) => {
   }, [post]); // Listen for changes in post
 
   if (!post) {
-    return <div className="bg-backgroundColor text-black text-[100px] text-center p-10">Loading...</div>;
+    return <div className="bg-backgroundColor text-black text-3xl lg:text-5xl text-center p-10">Loading...</div>;
   }
 
   return (
