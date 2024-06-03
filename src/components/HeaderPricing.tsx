@@ -5,7 +5,7 @@ const HeaderPricing = () => {
     <section className="bg-backgroundColor">
         <div className="max-w-[1440px] mx-auto">
         <div className="flex flex-col lg:flex-row py-10 gap-5 items-center w-[80%] mx-auto"> 
-            <h1 className="font-inter font-bold text-[40px] lg:text-[64px] text-black">Choose the right plan <span className="text-gray-400">for your businnes</span></h1>
+            <h1 className="leading-tight font-inter font-bold text-[40px] lg:text-[64px] text-black">Choose the right plan <span className="text-gray-400">for your businnes</span></h1>
             <div className="w-full lg:w-[55%] mx-auto"><p className="font-inter text-[18px] text-black">Built with love for growing businesses. Check out the Roooby CRM pricing grid below. Switch between plans at any time.</p></div>
         </div>
         <div className="flex flex-col lg:flex-row gap-7 lg:gap-2 p-5 w-full lg:w-[90%] mx-auto pb-[80px]">
