@@ -1,13 +1,19 @@
+"use client";
+import { useEffect } from 'react';
+import BlogHeader from "@/components/BlogHeader";
+import Form from "@/components/Form";
 
-import BlogHeader from "@/components/BlogHeader"
-import Form from "@/components/Form"
-const page = () => {
+const Page = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <main>
-    <BlogHeader/>
-    <Form/>
+      <BlogHeader />
+      <Form />
     </main>
-  )
+  );
 }
 
-export default page
+export default Page;
