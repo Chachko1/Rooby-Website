@@ -8,7 +8,7 @@ const Section2 = () => {
         <div className="flex flex-col lg:flex-row  gap-2 border-t border-gray-400 p-[50px]">
             <div className="w-full lg:w-[50%] mx-0 md:mx-auto">
                 <span className="bg-customYellow rounded-md  p-1.5 px-2 font-inter font-bold text-xl">Sales</span>
-                <div className="font-inter font-bold text-[32px] lg:text-[48px] py-5 md:py-0 text-black">Increase company revenue up to 65%</div>
+                <div className="font-inter font-bold text-[32px] lg:text-[48px] py-5 md:py-0 text-black leading-tight">Increase company revenue up to 65%</div>
                 <p className="font-inter text-[18px] w-full lg:w-[70%] pb-5 md:pb-0 text-black">Automate your sales, marketing, and service in one platform. Avoid data leaks and enable consistent messaging. </p>
                 <ul className="font-inter p-2 text-[18px]">
                     <li className="p-3 pb-4 flex gap-6 text-black"><img src="Ticked.png" alt="" className="w-5 h-5" /> Close more deals with single-page contact management</li>
